@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Inspiration & display=swap');
+/* se conecta con google fonts */
+
+/* hostinger es el dominio para tener el sitio en linea y se cancela con tarjeta del cliente */
+/*github hosting gratis pag de progrmadores consultas y todo ahi*/
+
+body{
+    background: url(../images/progr.jpg);/* fondo de pagina *//* para salir es ../ y para abrir / */
+    /* fondo de pagina */
+    text-align: center;
+    font-family:'Bebas Neue', cursiva;/*se aplica el tipo de letra */
+
+
+
+    }
+
+button{/* elemento que esta antes del corchete es el selector el limite son los corchetes y propiedades
+    lo que va dentro de los corchetes y despues de los dos puntos valos de la propiedad */
+/* imagenes para la pagina de los bancos de imagen */
+    padding: 12px 80px; /* de la liena del boton a la letra */
+    margin: 20px 30px; /* de la liena del boton pa fuera */
+    font-size: 24px; /* tamaño de la letra del boton */
+    background: #fffb01;/* fondo del boton */
+    color: #000000; /* color de la letra */
+    border-radius: 20px;/* borde redondo */
+    border: 2px dotted #cf2121; /* margen continuan dahed y dotted linea discontinual borde max 2px */
+    cursor: pointer;/* para cambiar la flecha a manito cuando se pone sobre el boton */
+    transition: 0.5s; /* maximo medio segundo*/
+}
+ button:hover{ /* cambiear el boton al poner el cursor */
+     background: #d60d0d;/* cambio del color al poner el cursor */
+     padding: 15px 20px; /* para aumentar el tamaño*/
+     border-radius: 0;/* para poner bordes rectos al aumentar el tamaño */
+    
+    }
+h1{/* edicion del estilo del titulo */
+    color: #bdba2e;/* Color del titulo */
+    font-size: 54px;/* tamaño del titulo */
+    background-size: cover;/* editar el fondo de umagen puede ser 100% */
+/* el peso de las tipografias para web debe der entre 300 y 700 */
+}
+h2{
+    color: #000000;
+}
+    
